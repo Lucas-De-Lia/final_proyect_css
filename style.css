@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto" , sans-serif;
+    padding: 0;
+    margin: 0;
+}
+nav,main,footer{
+    background-color: #1f2937;
+}
+.barra_nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+.links a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+nav h2{
+    color: #f9faf8;
+    font-size: 24px;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+}
+.foto{
+    width: 400px;
+    height: 200px;
+}
+
+.hero_1 h1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.hero_1 p{
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+.hero_1 .boton{
+    padding:10px 30px;
+    border: none;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: white;
+}
+
+.hero_1, .hero_2{
+    width: 500px;
+    height: 300px;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-top: 20px ;
+    padding-bottom: 200px;
+}
+.section1 h2{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding-bottom: 50px;
+}
+.imagenes img{
+    height: 100px;
+    width: 100px;
+}
+.container_photos{
+    display: flex;
+    gap: 50px;
+}
+.imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    width: 150px;
+}
+.imagenes p{
+    color:grey; 
+}
+footer{
+    padding: 20px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+}
+.section2{
+    background-color: #e5e7eb;
+    padding-top: 100px;
+    padding-bottom : 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section2 p{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    width: 500px;
+}
+.name{
+    padding-left: 200px;
+}
+.section3{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.container_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #3882f6;
+    padding: 50px;
+    border-radius: 5px;
+}
+.action,.txt{
+    color: white;
+}
+.boton{
+    background-color: #3882f6;
+    border-color: white;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px; 
+}
